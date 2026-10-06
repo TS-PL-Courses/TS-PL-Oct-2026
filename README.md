@@ -1,6 +1,6 @@
 # Installation and Setup
 
-## 1. Install the required tools
+## Install the required tools
 
 Before starting the course, install the following tools:
 
@@ -20,7 +20,7 @@ Useful Git setup documentation:
 
 ---
 
-## 2. Clone the course repository
+## Clone the course repository
 
 Open **Git Bash** or the integrated terminal in Visual Studio Code and clone the repository:
 
