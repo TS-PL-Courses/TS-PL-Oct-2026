@@ -1,24 +1,69 @@
-# Istallation and Set Up
+# Installation and Setup
 
-## Pre-condition:
+## 1. Install the required tools
 
-- install Ide (Visual Studio Code)
-- install nodeJS LTS (latest stable version) from `https://nodejs.org/en/download`
-- install GIT from `https://git-scm.com/install/windows`
-- how to set up GIT `https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup`
+Before starting the course, install the following tools:
 
-## Run the following commands in git-bash terminal to install poject packages:
+- **Visual Studio Code**  
+  https://code.visualstudio.com/
 
-- `npm install` -> install all project packages
-- `npx ts-node -v` -> if it asks you to install ts-node Accept, try again and you should see a version in your console like 'v10.9.2'
-- `npm init playwright@latest` OR `npx playwright install --with-deps` -> install Plawright with prompts or silent
+- **Git**  
+  https://git-scm.com/
 
-## Install VS Code extensions:
+- **Node.js LTS**  
+  https://nodejs.org/en
 
-- Playwright (publisher: Microsoft)
-- ESLint (publisher: Microsoft)
-- Live Preview (publisher: Microsoft)
-- Prettier (publisher: Prettier)
+Useful Git setup documentation:
+
+- First-time Git setup:  
+  https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+---
+
+## 2. Clone the course repository
+
+Open **Git Bash** or the integrated terminal in Visual Studio Code and clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Open the cloned project:
+
+```bash
+cd <repository-folder>
+code .
+```
+
+---
+
+# Git Quick Reference
+
+The main Git commands we will use during the course:
+
+- `git checkout <branch-name>` -> switch to an existing branch
+- `git checkout -b <branch-name>` -> create a new branch and switch to it
+- `git pull` -> get the latest changes from the remote repository
+- `git add .` -> add all changed files
+- `git commit -m "commit message"` -> commit the added changes
+- `git push -u origin <branch-name>` -> push a new branch to GitHub for the first time
+- `git push` -> push new commits after the branch is already published
+- `git status` -> check the current branch and changed files
+
+Example workflow:
+
+```bash
+git checkout -b "lesson-01-your-name"
+
+# make your changes
+
+git add .
+git commit -m "Complete lesson 01 exercise"
+git push -u origin lesson-01-your-name
+```
+
+---
+
 
 ## Import VS Code User Settings:
 
